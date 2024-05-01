@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='https://i.imgur.com/B3j6Fk7.jpeg' alt='Vite Shadcn-ui boilerplate'/>
+  <img src='https://i.imgur.com/HjdAaVq.jpeg' alt='Vite Shadcn-ui boilerplate'/>
 </p>
 
 ## Motivation
