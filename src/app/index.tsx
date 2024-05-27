@@ -7,7 +7,7 @@ function App() {
 			<nav>
 				<Link to={'colors'}>Go to colors page</Link>
 			</nav>
-			<div className="w-full h-[100dvh] flex justify-center items-center">
+			<div className="flex h-dvh w-full items-center justify-center">
 				<Button data-testid="say-hello" onClick={() => alert('hello world')}>
 					Say hello
 				</Button>
