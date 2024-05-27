@@ -33,15 +33,15 @@ const Colors = () => {
 	return (
 		<div
 			data-testid="colors-container"
-			className="w-full h-[100dvh] flex flex-col justify-center items-center gap-2"
+			className="flex h-dvh w-full flex-col items-center justify-center gap-2"
 		>
-			{loading && <Skeleton className="w-32 h-16 rounded-lg" />}
+			{loading && <Skeleton className="h-16 w-32 rounded-lg" />}
 			{colors &&
 				colors?.length > 0 &&
 				colors.map((color) => (
 					<div
 						key={color}
-						className={`w-32 h-16 rounded-lg flex flex-col items-center justify-center`}
+						className={`flex h-16 w-32 flex-col items-center justify-center rounded-lg`}
 						style={{ background: color }}
 					>
 						{color}
